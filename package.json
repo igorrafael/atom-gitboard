@@ -1,0 +1,38 @@
+{
+  "name": "gitboard",
+  "main": "./lib/main",
+  "version": "0.3.3",
+  "description": "Counts lines, words and characters in your current document, as well as in your selection and displays it in the status bar.",
+  "keywords": [
+    "line count",
+    "count lines",
+    "word count",
+    "line",
+    "lines",
+    "word",
+    "count",
+    "character count",
+    "char",
+    "character",
+    "status",
+    "status-bar",
+    "bar",
+    "highlight"
+  ],
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.180.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "underscore": "^1.8.3"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
