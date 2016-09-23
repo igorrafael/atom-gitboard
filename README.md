@@ -1,3 +1,8 @@
+# NOTICE
+
+The project [imdone](https://github.com/imdone/imdone-core/) has distributed version of a approach similar to this.
+At this point it would make more sense to try to extend imdone instead of developing this project.
+
 # GitBoard
 
 Proof of concept tool to text files to manage a scrum board using atom and git.
